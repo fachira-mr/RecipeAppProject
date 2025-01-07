@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Unggah Resep Baru!"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:id="@+id/labelNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Nama Resep:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etNamaResep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex. Ayam Goreng Bawang Putih"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/labelKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kategori:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerKategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/labelDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Deskripsi:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ayam goreng yang dimarinasi dengan bawang putih"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/labelBahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bahan-bahan:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etBahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(Pisahkan dengan garis baru/Enter)"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/labelCara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cara Memasak:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etCara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(Pisahkan dengan garis baru/Enter)"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnSaveRecipe"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#000000"
+            android:text="Simpan Resep"
+            android:textColor="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
