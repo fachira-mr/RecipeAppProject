@@ -1,1 +1,1 @@
-## Other Contributors: [@barmuti](https://github.com/barmuti)
+**Other Contributors: [@barmuti](https://github.com/barmuti)**
